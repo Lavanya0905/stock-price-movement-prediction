@@ -14,6 +14,7 @@ Real-time prediction interface
 Dockerized deployment
 CI/CD integration using Jenkins
 Git version control integration
+
 🛠️ Tech Stack
 Programming Language
 Python
@@ -31,6 +32,7 @@ DevOps Tools
 Docker
 Jenkins
 Git
+
 📂 Project Structure
 stock-price-movement-prediction/
 │
@@ -54,6 +56,7 @@ stock-price-movement-prediction/
 │   ├── stock_data.csv
 │
 └── README.md
+
 ⚙️ Installation
 Clone Repository
 git clone https://github.com/Lavanya0905/stock-price-movement-prediction.git
@@ -64,25 +67,25 @@ python -m venv venv
 Activate Environment
 
 Windows:
-
 venv\Scripts\activate
 
 Linux/Mac:
-
 source venv/bin/activate
+
 Install Dependencies
 pip install -r requirements.txt
 ▶️ Running the Application
 python app.py
 
 Open your browser and visit:
-
 http://localhost:5000
+
 🐳 Docker Deployment
 Build Docker Image
 docker build -t stock-price-prediction .
 Run Container
 docker run -p 5000:5000 stock-price-prediction
+
 🤖 Machine Learning Workflow
 Collect historical stock market data
 Clean and preprocess data
@@ -91,16 +94,16 @@ Train machine learning model
 Evaluate prediction accuracy
 Deploy model using Flask
 Serve predictions through web interface
+
 📊 Model Evaluation Metrics
-
 The model can be evaluated using:
-
 Accuracy
 Precision
 Recall
 F1-Score
 Mean Absolute Error (MAE)
 Root Mean Squared Error (RMSE)
+
 📸 Application Workflow
 User Input
       ↓
@@ -111,6 +114,7 @@ Prediction Model
 Result Generation
       ↓
 Web Interface Display
+
 🎯 Future Enhancements
 Real-time stock market API integration
 LSTM/GRU deep learning models
@@ -118,13 +122,12 @@ Technical indicator analysis
 News sentiment analysis
 Portfolio recommendation system
 Cloud deployment using AWS/Azure
-👩‍💻 Author
 
+👩‍💻 Author
 Lavanya
 
 GitHub:
 Lavanya0905 GitHub Profile
 
 📜 License
-
 This project is developed for educational and research purposes.
